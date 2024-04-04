@@ -42,6 +42,9 @@ void LinearSearch() //Fungsi untuk melakukan pencarian linear
 		while (i < n) // Melakukan pencarian linear selama iterasi kurang dari jumlah elemen array
 		{
 			ctr++; // Menambah jumlah perbandingan
+			if (arr[i] == item) // Jika elemen ditemukan dalam array
+			{
+			}
 		}
 	}
 }

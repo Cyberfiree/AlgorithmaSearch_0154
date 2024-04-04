@@ -19,6 +19,9 @@ void input() // Fungsi untuk mengambil input jumlah dan elemen array.
 	cout << "\n-------------------\n"; // Pesan pembatas.
 	cout << "Masukkan elemen array \n"; // Pesan untuk meminta pengguna memasukkan elemen array
 	cout << "\n-------------------\n"; // Pesan pembatas.
+	for (i = 0; i < n; i++) // Loop untuk memasukkan setiap elemen array
+	{
+	}
 }
 int main()
 {

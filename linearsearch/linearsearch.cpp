@@ -58,6 +58,10 @@ void LinearSearch() //Fungsi untuk melakukan pencarian linear
 
 	} while ((ch == 'y') || (ch == 'Y')); // Melakukan loop selama pengguna ingin melanjutkan pencarian
 }
+
+void display() // Fungsi untuk menampilkan elemen array
+{
+}
 int main()
 {
 }

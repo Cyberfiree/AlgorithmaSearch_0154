@@ -49,6 +49,7 @@ void LinearSearch() //Fungsi untuk melakukan pencarian linear
 			}
 			i++; // Pindah ke elemen berikutnya dalam array
 		}
+		if (i == n) // Jika iterasi mencapai batas (tidak ditemukan dalam array)
 	}
 }
 int main()

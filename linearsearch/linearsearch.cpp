@@ -35,6 +35,7 @@ void LinearSearch() //Fungsi untuk melakukan pencarian linear
 	do // Melakukan loop untuk memungkinkan pengguna melakukan pencarian berulang
 	{
 		cout << "\nEnter the element you want to search: "; // Meminta pengguna untuk memasukkan elemen yang akan dicari
+		cin >> item; // Membaca elemen yang akan dicari dari pengguna
 	}
 }
 int main()

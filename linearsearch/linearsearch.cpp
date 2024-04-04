@@ -44,6 +44,7 @@ void LinearSearch() //Fungsi untuk melakukan pencarian linear
 			ctr++; // Menambah jumlah perbandingan
 			if (arr[i] == item) // Jika elemen ditemukan dalam array
 			{
+				cout << "\n" << item << "found at position" << (i + 1) << endl; // Menampilkan pesan bahwa elemen ditemukan beserta posisinya
 			}
 		}
 	}

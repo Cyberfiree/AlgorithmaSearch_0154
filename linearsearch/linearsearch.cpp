@@ -54,6 +54,7 @@ void LinearSearch() //Fungsi untuk melakukan pencarian linear
 		cout << "\nNumber of comparisons:" << ctr << endl; // Menampilkan jumlah perbandingan yang dilakukan
 
 		cout << "\nContinue search (y/n):"; // Meminta pengguna untuk melanjutkan pencarian atau tidak
+		cin >> ch; // Membaca pilihan pengguna
 	}
 }
 int main()

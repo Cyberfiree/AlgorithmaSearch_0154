@@ -70,4 +70,5 @@ void display() // Fungsi untuk menampilkan elemen array
 int main() //fungsi utama program
 {
 	input(); // Memanggil fungsi untuk memasukkan elemen array
+	LinearSearch(); // Memanggil fungsi untuk melakukan pencarian linear
 }

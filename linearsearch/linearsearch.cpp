@@ -7,6 +7,9 @@ int i; // Variabel iterasi.
 
 void input() // Fungsi untuk mengambil input jumlah dan elemen array.
 {
+	while (true) //melakukan loop tak terbatas
+	{
+	}
 }
 int main()
 {

@@ -14,6 +14,7 @@ void input() // Fungsi untuk mengambil input jumlah dan elemen array.
 		if ((n > 0) && (n <= 20)) // Memeriksa apakah jumlah elemen valid.
 			break; // Keluar dari loop jika valid.
 		else
+			cout << "\nArray should have minimum 1 and maximum 20 elements.\n\n"; // Memberikan pesan kesalahan jika tidak valid.
 	}
 }
 int main()

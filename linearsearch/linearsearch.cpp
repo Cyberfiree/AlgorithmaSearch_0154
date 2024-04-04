@@ -47,6 +47,7 @@ void LinearSearch() //Fungsi untuk melakukan pencarian linear
 				cout << "\n" << item << "found at position" << (i + 1) << endl; // Menampilkan pesan bahwa elemen ditemukan beserta posisinya
 				break; // Keluar dari loop pencarian
 			}
+			i++; // Pindah ke elemen berikutnya dalam array
 		}
 	}
 }

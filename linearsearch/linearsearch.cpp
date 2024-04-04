@@ -17,6 +17,7 @@ void input() // Fungsi untuk mengambil input jumlah dan elemen array.
 			cout << "\nArray should have minimum 1 and maximum 20 elements.\n\n"; // Memberikan pesan kesalahan jika tidak valid.
 	}
 	cout << "\n-------------------\n"; // Pesan pembatas.
+	cout << "Masukkan elemen array \n"; // Pesan untuk meminta pengguna memasukkan elemen array
 	cout << "\n-------------------\n"; // Pesan pembatas.
 }
 int main()

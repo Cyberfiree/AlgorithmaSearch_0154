@@ -5,6 +5,9 @@ int arr[20]; // Deklarasi array arr dengan panjang 20.
 int n; // Variabel untuk menyimpan jumlah elemen array.
 int i; // Variabel iterasi.
 
+void input() // Fungsi untuk mengambil input jumlah dan elemen array.
+{
+}
 int main()
 {
 }

@@ -71,4 +71,5 @@ int main() //fungsi utama program
 {
 	input(); // Memanggil fungsi untuk memasukkan elemen array
 	LinearSearch(); // Memanggil fungsi untuk melakukan pencarian linear
+	display(); // Memanggil fungsi untuk menampilkan elemen array
 }

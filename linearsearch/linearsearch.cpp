@@ -25,6 +25,10 @@ void input() // Fungsi untuk mengambil input jumlah dan elemen array.
 		cin >> arr[i]; // Memasukkan elemen ke dalam array
 	}
 }
+
+void LinearSearch() //Fungsi untuk melakukan pencarian linear
+{
+}
 int main()
 {
 }

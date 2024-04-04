@@ -66,6 +66,7 @@ void display() // Fungsi untuk menampilkan elemen array
 		cout << arr[i] << " "; // Menampilkan elemen-elemen array
 	cout << endl;
 }
-int main()
+
+int main() //fungsi utama program
 {
 }

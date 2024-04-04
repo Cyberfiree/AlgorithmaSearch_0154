@@ -39,6 +39,9 @@ void LinearSearch() //Fungsi untuk melakukan pencarian linear
 
 		ctr = 0; // Mengatur jumlah perbandingan awal menjadi 0
 		i = 0; // Mengatur nilai iterasi awal menjadi 0
+		while (i < n) // Melakukan pencarian linear selama iterasi kurang dari jumlah elemen array
+		{
+		}
 	}
 }
 int main()

@@ -55,7 +55,8 @@ void LinearSearch() //Fungsi untuk melakukan pencarian linear
 
 		cout << "\nContinue search (y/n):"; // Meminta pengguna untuk melanjutkan pencarian atau tidak
 		cin >> ch; // Membaca pilihan pengguna
-	}
+
+	} while ((ch == 'y') || (ch == 'Y')); // Melakukan loop selama pengguna ingin melanjutkan pencarian
 }
 int main()
 {

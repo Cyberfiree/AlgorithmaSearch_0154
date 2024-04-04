@@ -16,9 +16,11 @@ void input() // Fungsi untuk mengambil input jumlah dan elemen array.
 		else
 			cout << "\nArray should have minimum 1 and maximum 20 elements.\n\n"; // Memberikan pesan kesalahan jika tidak valid.
 	}
+
+	// Terima element array
 	cout << "\n-------------------\n"; // Pesan pembatas.
-	cout << "Masukkan elemen array \n"; // Pesan untuk meminta pengguna memasukkan elemen array
-	cout << "\n-------------------\n"; // Pesan pembatas.
+	cout << "Enter array elements \n"; // Pesan untuk meminta pengguna memasukkan elemen array
+	cout << " --------------------\n"; // Pesan pembatas.
 	for (i = 0; i < n; i++) // Loop untuk memasukkan setiap elemen array
 	{
 		cout << "<" << (i + 1) << ">"; //Menampilkan nomor elemen yang sedang dimasukkan
@@ -34,26 +36,28 @@ void LinearSearch() //Fungsi untuk melakukan pencarian linear
 
 	do // Melakukan loop untuk memungkinkan pengguna melakukan pencarian berulang
 	{
-		cout << "\nEnter the element you want to search: "; // Meminta pengguna untuk memasukkan elemen yang akan dicari
+		// terima nomor untuk dicari
+		cout << "\nEnter the element you want to search: "; // Meminta pengguna untuk memasukkan elemen yang akan dicari // step 1
 		cin >> item; // Membaca elemen yang akan dicari dari pengguna
 
 		ctr = 0; // Mengatur jumlah perbandingan awal menjadi 0
-		i = 0; // Mengatur nilai iterasi awal menjadi 0
-		while (i < n) // Melakukan pencarian linear selama iterasi kurang dari jumlah elemen array
+		i = 0; // Mengatur nilai iterasi awal menjadi 0 // 2
+		while (i < n) // Melakukan pencarian linear selama iterasi kurang dari jumlah elemen array // 3
 		{
 			ctr++; // Menambah jumlah perbandingan
 			if (arr[i] == item) // Jika elemen ditemukan dalam array
 			{
-				cout << "\n" << item << "found at position" << (i + 1) << endl; // Menampilkan pesan bahwa elemen ditemukan beserta posisinya
+				cout << "\n" << item << " found at position " << (i + 1) << endl; // Menampilkan pesan bahwa elemen ditemukan beserta posisinya // step 6
 				break; // Keluar dari loop pencarian
 			}
-			i++; // Pindah ke elemen berikutnya dalam array
+			i++; // Pindah ke elemen berikutnya dalam array //step 4
 		}
-		if (i == n) // Jika iterasi mencapai batas (tidak ditemukan dalam array)
-			cout << "\n" << item << "not found in the array\n"; // Menampilkan pesan bahwa elemen tidak ditemukan
-		cout << "\nNumber of comparisons:" << ctr << endl; // Menampilkan jumlah perbandingan yang dilakukan
 
-		cout << "\nContinue search (y/n):"; // Meminta pengguna untuk melanjutkan pencarian atau tidak
+		if (i == n) // Jika iterasi mencapai batas (tidak ditemukan dalam array) // step 5
+			cout << "\n" << item << " not found in the array\n" ; // Menampilkan pesan bahwa elemen tidak ditemukan
+		cout << "\nNumber of comparisons: " << ctr << endl; // Menampilkan jumlah perbandingan yang dilakukan
+
+		cout << "\nContinue search (y/n): "; // Meminta pengguna untuk melanjutkan pencarian atau tidak
 		cin >> ch; // Membaca pilihan pengguna
 
 	} while ((ch == 'y') || (ch == 'Y')); // Melakukan loop selama pengguna ingin melanjutkan pencarian

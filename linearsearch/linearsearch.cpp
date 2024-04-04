@@ -61,6 +61,7 @@ void LinearSearch() //Fungsi untuk melakukan pencarian linear
 
 void display() // Fungsi untuk menampilkan elemen array
 {
+	cout << "Array elements are:"; //Menampilkan pesan sebelum menampilkan elemen array
 }
 int main()
 {

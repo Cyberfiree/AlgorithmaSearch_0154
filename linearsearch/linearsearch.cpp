@@ -36,6 +36,8 @@ void LinearSearch() //Fungsi untuk melakukan pencarian linear
 	{
 		cout << "\nEnter the element you want to search: "; // Meminta pengguna untuk memasukkan elemen yang akan dicari
 		cin >> item; // Membaca elemen yang akan dicari dari pengguna
+
+		ctr = 0; // Mengatur jumlah perbandingan awal menjadi 0
 	}
 }
 int main()

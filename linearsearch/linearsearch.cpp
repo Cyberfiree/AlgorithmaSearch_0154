@@ -12,6 +12,7 @@ void input() // Fungsi untuk mengambil input jumlah dan elemen array.
 		cout << "Enter the number of elements in the array: "; // Meminta input jumlah elemen array.
 		cin >> n; // Mengambil input jumlah elemen.
 		if ((n > 0) && (n <= 20)) // Memeriksa apakah jumlah elemen valid.
+			break; // Keluar dari loop jika valid.
 	}
 }
 int main()

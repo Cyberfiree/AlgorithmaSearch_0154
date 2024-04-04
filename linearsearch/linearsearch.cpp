@@ -21,6 +21,7 @@ void input() // Fungsi untuk mengambil input jumlah dan elemen array.
 	cout << "\n-------------------\n"; // Pesan pembatas.
 	for (i = 0; i < n; i++) // Loop untuk memasukkan setiap elemen array
 	{
+		cout << "<" << (i + 1) << ">"; //Menampilkan nomor elemen yang sedang dimasukkan
 	}
 }
 int main()

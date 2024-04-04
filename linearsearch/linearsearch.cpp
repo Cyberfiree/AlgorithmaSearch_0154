@@ -31,6 +31,10 @@ void LinearSearch() //Fungsi untuk melakukan pencarian linear
 	char ch; // Variabel untuk menyimpan pilihan pengguna
 	int ctr; // variabel untuk menghitung jumlah perbandingan
 	int item; // Variabel untuk menyimpan elemen yang akan dicari
+
+	do // Melakukan loop untuk memungkinkan pengguna melakukan pencarian berulang
+	{
+	}
 }
 int main()
 {

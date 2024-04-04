@@ -29,6 +29,7 @@ void input() // Fungsi untuk mengambil input jumlah dan elemen array.
 void LinearSearch() //Fungsi untuk melakukan pencarian linear
 {
 	char ch; // Variabel untuk menyimpan pilihan pengguna
+	int ctr; // ariabel untuk menghitung jumlah perbandingan
 }
 int main()
 {

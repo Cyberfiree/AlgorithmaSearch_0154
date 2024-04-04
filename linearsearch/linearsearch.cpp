@@ -22,6 +22,7 @@ void input() // Fungsi untuk mengambil input jumlah dan elemen array.
 	for (i = 0; i < n; i++) // Loop untuk memasukkan setiap elemen array
 	{
 		cout << "<" << (i + 1) << ">"; //Menampilkan nomor elemen yang sedang dimasukkan
+		cin >> arr[i]; // Memasukkan elemen ke dalam array
 	}
 }
 int main()

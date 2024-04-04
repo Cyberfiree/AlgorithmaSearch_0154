@@ -52,6 +52,8 @@ void LinearSearch() //Fungsi untuk melakukan pencarian linear
 		if (i == n) // Jika iterasi mencapai batas (tidak ditemukan dalam array)
 			cout << "\n" << item << "not found in the array\n"; // Menampilkan pesan bahwa elemen tidak ditemukan
 		cout << "\nNumber of comparisons:" << ctr << endl; // Menampilkan jumlah perbandingan yang dilakukan
+
+		cout << "\nContinue search (y/n):"; // Meminta pengguna untuk melanjutkan pencarian atau tidak
 	}
 }
 int main()

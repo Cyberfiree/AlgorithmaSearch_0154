@@ -38,6 +38,7 @@ void LinearSearch() //Fungsi untuk melakukan pencarian linear
 		cin >> item; // Membaca elemen yang akan dicari dari pengguna
 
 		ctr = 0; // Mengatur jumlah perbandingan awal menjadi 0
+		i = 0; // Mengatur nilai iterasi awal menjadi 0
 	}
 }
 int main()
